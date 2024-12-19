@@ -1,8 +1,8 @@
 print ("Bem vindo a calculadora Python\n"+"="*40)
 while True:
     try:
-        a = int (input("Digite um valor:"))
-        b = int (input("Digite o segundo valor:"))
+        a = float(input("Digite um valor:"))
+        b = float (input("Digite o segundo valor:"))
         while True:
             o = int (input("Aperte:\n1 SOMAR\n2 SUBTRAIR\n3 MULTIPLICAR\n4 DIVIDIR\n5 SAIR\n"+"-"*50 +'\n'))
             if o == 1:
